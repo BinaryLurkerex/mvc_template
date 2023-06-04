@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:get_it/get_it.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:injectable/injectable.dart';
@@ -11,7 +9,7 @@ import 'services.config.dart';
 class Services {
   static final getIt = GetIt.instance;
 
-  static FutureOr<GetIt> inject() async {
+  static Future<GetIt> inject() async {
     HydratedBloc.storage = await HydratedStorage.build(
       storageDirectory: await getApplicationDocumentsDirectory(),
     );
