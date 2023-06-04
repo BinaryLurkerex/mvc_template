@@ -1,1 +1,12 @@
-include: package:flutter_lints/flutter.yaml
+analyzer:
+  plugins:
+      - dart_code_metrics
+  exclude:
+    - 'build/**'
+    - lib/**.config.dart
+    - lib/**.freezed.dart
+    - lib/**.g.dart
+
+dart_code_metrics:
+  extends:
+    - package:dart_code_metrics_presets/all.yaml
