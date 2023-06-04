@@ -1,0 +1,47 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.metadata
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock
+
+# Symbolication related
+app.*.symbols
+app.*.map.json
+
+# Build runner related
+*.config.dart
+*.freezed.dart
+*.g.dart
+
+# Platform related
+windows/
+linux/
+macos/
+android/
+ios/
